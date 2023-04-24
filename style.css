@@ -103,7 +103,7 @@ header nav ul li {
     background-image: url('https://github.com/carla11235813/Trabalho-WFE-Star-Wars/blob/main/img/star-wars-4k.jpg?raw=true');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
     background-attachment: fixed;
 
     display: flex;
