@@ -14,14 +14,8 @@
 }
 
 .inicio {
-    background-color: white;
-    width: 100px;
-    text-align: center;
-    padding: 10px 15px;
-    border-radius: 2rem;
     margin-top: 70px;
     margin-left: 70px;
-    border: 2px solid #000;
 
     transition: .4s;
 }
@@ -32,9 +26,17 @@
 }
 
 .inicio a {
+    letter-spacing: 2px;
     color: #000;
     font-weight: 600;
     font-family: 'SF Distant Galaxy', sans-serif;
+
+    background-color: white;
+    width: 100px;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 2rem;
+    border: 2px solid #000;
 }
 
 .container {
@@ -167,9 +169,7 @@ header nav ul li {
 }
 
 .fundo1 {
-    background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, #4286f4, #373B44);
 
 }
 
@@ -247,7 +247,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 .card {
     width: 350px;
     padding: 10px;
-    background-color: #b5b7b741;
+    background-color: #b5b7b762;
     margin: 10px;
     border-radius: 10px;
     transition: .4s;
@@ -271,7 +271,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 }
 
 .card:hover {
-    background-color: #eff0f3a8;
+    background-color: #eff0f3ae;
     transform: translateY(-30px);
     transition: .4s;
 }
