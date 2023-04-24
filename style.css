@@ -93,7 +93,7 @@ header nav ul li {
 
 .titulo {
     height: 85vh;
-    background-image: url('https://rare-gallery.com/uploads/posts/571963-star-wars-4k.jpg');
+    background-image: url('https://github.com/carla11235813/Trabalho-WFE-Star-Wars/blob/main/img/star-wars-4k.jpg?raw=true');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -345,7 +345,7 @@ footer a:hover {
 
 /*--------LADO NEGRO---------*/
 .dark {
-    background-image: url('img/Darth-VaderDarth-Vader-HD-Wallpaper.jpg');
+    background-image: url('https://github.com/carla11235813/Trabalho-WFE-Star-Wars/blob/main/img/Darth-VaderDarth-Vader-HD-Wallpaper.jpg?raw=true');
     background-position: center top;
 }
 
