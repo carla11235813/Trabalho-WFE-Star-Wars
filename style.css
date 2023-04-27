@@ -13,6 +13,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .inicio {
     margin-top: 70px;
     margin-left: 70px;
