@@ -8,7 +8,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 }
@@ -70,6 +69,7 @@ section {
 
 /*----------HEADER----------*/
 header {
+    list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,7 +106,6 @@ header nav ul li {
 
 
 /*----------TITULO-----------*/
-
 
 .titulo {
     height: 85vh;
@@ -214,13 +213,14 @@ header nav ul li {
     border-radius: 3rem;
 }
 
-.filme-texto ul {
+.filme-texto ol {
     font-size: 19px;
     color: white;
     padding-top: 30px;
+    list-style-position: inside;
 }
 
-.filme-texto ul li {
+.filme-texto ol li {
     line-height: 1.4;
 }
 
@@ -305,11 +305,11 @@ footer h3 {
     padding-bottom: 10px;
 }
 
-footer a {
+.lista-rodape a {
     color: white;
 }
 
-footer a:hover {
+.lista-rodape .github a:hover {
     text-decoration: underline;
 }
 
@@ -323,7 +323,22 @@ footer a:hover {
     padding: 20px;
 }
 
+.lista-rodape li{
+    color: white;
+    list-style-position: inside;
+}
 
+.email {
+    list-style-image: url('img/email1.png');
+}
+
+.github {
+    list-style-image: url('img/github.png');
+}
+
+.telefone {
+    list-style-image: url('img/telefone1.png');
+}
 /*--------LADO LUZ ---------*/
 
 .luz {
@@ -372,3 +387,5 @@ footer a:hover {
 .sith-p {
     color: white;
 }
+
+
