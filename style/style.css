@@ -10,6 +10,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
+    list-style: none;
 }
 
 body {
@@ -303,6 +304,22 @@ footer {
 footer h3 {
     color: white;
     padding-bottom: 10px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer i {
+    font-size: 25px;
 }
 
 .lista-rodape a {
