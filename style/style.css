@@ -195,6 +195,7 @@ header a:hover {
 
 /*----------FILMES-----------*/
 .filmes {
+    
     background-image: linear-gradient(to bottom right, #1C1C1C, #060D15);  
     padding: 5rem 0;
 
@@ -202,7 +203,7 @@ header a:hover {
     border-top:2px solid #FCDF2B;
 }
 
-.filmes h1, h2 {
+.filmes h2 {
     color: white;
 }
 
@@ -260,6 +261,7 @@ header a:hover {
 }
 
 .card {
+    
     width: 350px;
     padding: 10px;
     background-color: #b5b7b762;
@@ -269,10 +271,6 @@ header a:hover {
     box-shadow: 3px 3px 3px #00000034;
 }
 
-.card p {
-    font-size: 16px;
-}
-
 .card h2 {
     padding-top: 10px;
     text-align: center;
@@ -280,12 +278,13 @@ header a:hover {
 }
 
 .card img {
-    width: 330px;
+    max-width: 330px;
+    border-radius: 10px;
 }
 
 .card:hover {
     background-color: #eff0f3ae;
-    transform: translateY(-30px);
+    transform: translateY(-25px);
     transition: .4s;
 }
 
@@ -475,23 +474,29 @@ footer i {
         padding: 20px;
     }
 
-    .uni_expandido p, .jedis p, .sith p {
+    .uni_expandido > p, .jedis > p, .sith > p {
         max-width: 600;
         padding: 30px;
         text-align: justify;
+    }
+
+    .uni_expandido h1, .jedis h1, .sith h1 {
+        padding-inline: 20px;
     }
 
     .cards {
         justify-content: center;
     }
 
-    .card {
-        padding: 10px;
+    .card img {
+        width: 100%;
     }
 
     .card:hover {
         pointer-events: none;
     }
+
+
 }
 
 
@@ -514,6 +519,14 @@ footer i {
 
     .sobre-cont img {
         width: 270px;
+    }
+
+    .filmes {
+        padding: 20px;
+    }
+
+    .filme {
+        width: 100%;
     }
 
     .filme img {
@@ -539,5 +552,13 @@ footer i {
 
     .footer-cont li {
         padding-inline: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:360px) {
+    .card {
+        width: 90%;
     }
 }
