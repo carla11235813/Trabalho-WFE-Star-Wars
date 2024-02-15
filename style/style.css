@@ -261,7 +261,6 @@ header a:hover {
 }
 
 .card {
-    
     width: 350px;
     padding: 10px;
     background-color: #b5b7b762;
@@ -284,7 +283,7 @@ header a:hover {
 
 .card:hover {
     background-color: #eff0f3ae;
-    transform: translateY(-25px);
+    transform: translateY(-15px);
     transition: .4s;
 }
 
