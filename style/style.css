@@ -10,7 +10,6 @@
     text-decoration: none;
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
-    list-style: none;
 }
 
 body {
@@ -209,17 +208,17 @@ header a:hover {
 
 .filmes p {
     color: white;
-    width: 600px;
+    max-width: 600px;
 }
 
 .filmes img {
     width: 400px;
     border: 2px solid #7AA1D2;
-    border-radius: 3rem;
+    border-radius: 1rem;
 }
 
 .filme-texto ol {
-    font-size: 19px;
+    font-size: 1.2rem;
     color: white;
     padding-top: 30px;
     list-style-position: inside;
@@ -295,13 +294,13 @@ header a:hover {
 /* RODAPÉ */
 footer {
     background: #000000;
-    padding-top: 5rem;
+    padding: 4rem 2rem;
+    list-style: none;
 }
 
 .footer-cont {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 15px;
 }
 
 
@@ -346,20 +345,8 @@ footer i {
 
 .lista-rodape li{
     color: white;
-    list-style-position: inside;
 }
 
-.email {
-    list-style-image: url('img/email1.png');
-}
-
-.github {
-    list-style-image: url('img/github.png');
-}
-
-.telefone {
-    list-style-image: url('img/telefone1.png');
-}
 /*--------LADO LUZ ---------*/
 
 .luz {
@@ -463,13 +450,29 @@ footer i {
     }
 
     .sobre-cont img {
-        width: 270px;
+        width: 350px;
         border-radius: 2rem 0 2rem 2rem;
     }
 
     .sobre-cont p {
         padding-inline: 20px;
     }
+
+    .filme {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .quem p {
+        padding: 30px;
+    }
+
+    .quem img {
+        width: 550px;
+        padding: 20px;
+    }
+
 }
 
 
@@ -488,5 +491,34 @@ footer i {
 
     .btn {
         margin: 0;
+    }
+
+    .sobre-cont img {
+        width: 270px;
+    }
+
+    .filme img {
+        width: 250px;
+    }
+
+    .quem p {
+        padding: 20px;
+    }
+
+    .quem img {
+        width: 300px;
+    }
+
+
+    .footer-cont {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-cont li {
+        padding-inline: 20px;
     }
 }
