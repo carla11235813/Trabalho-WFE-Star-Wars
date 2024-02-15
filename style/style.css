@@ -254,6 +254,8 @@ header a:hover {
 /*----------------*/
 .cards {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     padding-top: 30px;
 }
 
@@ -261,12 +263,10 @@ header a:hover {
     width: 350px;
     padding: 10px;
     background-color: #b5b7b762;
-    margin: 10px;
     border-radius: 10px;
     transition: .4s;
     border: 2px solid #000;
     box-shadow: 3px 3px 3px #00000034;
-
 }
 
 .card p {
@@ -456,6 +456,7 @@ footer i {
 
     .sobre-cont p {
         padding-inline: 20px;
+        text-align: justify;
     }
 
     .filme {
@@ -466,6 +467,7 @@ footer i {
 
     .quem p {
         padding: 30px;
+        text-align: justify;
     }
 
     .quem img {
@@ -473,6 +475,23 @@ footer i {
         padding: 20px;
     }
 
+    .uni_expandido p, .jedis p, .sith p {
+        max-width: 600;
+        padding: 30px;
+        text-align: justify;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card:hover {
+        pointer-events: none;
+    }
 }
 
 
